@@ -11,8 +11,8 @@
 
 1. **Clone the Repository:**
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   git clone [https://github.com/Vyoma22/IoT_Project-livestock_geofencing-.git](https://github.com/Vyoma22/IoT_Project-livestock_geofencing-.git)
+   cd IoT_Project-livestock_geofencing-
    ```
 
 2. **First-Time Database & Broker Setup:**

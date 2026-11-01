@@ -18,7 +18,7 @@
 2. **First-Time Database & Broker Setup:**
    - Start Docker Desktop.
    - Run initial containers: `docker compose up -d`
-   - Access InfluxDB at `http://localhost:8086` to create your initial org (`farm_org`), bucket (`livestock_telemetry`), and copy your API Token into `processor.py`.
+   - Access InfluxDB at `http://localhost:8086` to create your initial org (`iot_project`), bucket (`livestock_telemetry`), and copy your API Token into `processor.py`.
    - Set up Mosquitto user password: `mosquitto_passwd -c pwfile farm_admin`
 
 3. **Start All System Components:**

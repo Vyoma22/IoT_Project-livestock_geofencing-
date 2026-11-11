@@ -1,4 +1,25 @@
+# Python artifacts
 __pycache__/
-*.pyc
-.env
+*.py[cod]
+*$py.class
 *.log
+
+# Environment variables & secrets (Hides API keys & tokens)
+.env
+.env.*
+!.env.example
+*token*
+*.token
+
+# MQTT Password & credential files
+pwfile*
+*.password
+
+# macOS system clutter
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# InfluxDB / Local persistence mounts
+influxdb_storage/
+grafana_storage/
